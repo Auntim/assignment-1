@@ -5,6 +5,20 @@ header {
     margin-bottom: 70px;
 
 }
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+
+}
 
 
 .btn-primary {
@@ -37,13 +51,15 @@ header {
 .banner-title {
     font-size: 50px;
     color: #0D1321;
-    font-family: 'Times New Roman', Times, serif;
 }
+
+
 
 .paragraph {
     color: #0D1321;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .image {
@@ -57,4 +73,64 @@ header {
 .text-center {
     text-align: center;
     margin-top: 60px;
+}
+
+.secondary-title {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #181818;
+}
+
+.secondary-para {
+    font-size: 19px;
+    color: #0D1321;
+    opacity: 0.6;
+}
+
+.secondary-work {
+    text-align: center;
+}
+
+.block {
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    gap: 150px;
+    margin-bottom: 40px;
+}
+
+.skill-title {
+    font-size: 25px;
+    color: #0D1321;
+    font-weight: bold;
+}
+
+.skill-description {
+    font-size: 16px;
+    color: #0D1321;
+    /* font-weight: bold; */
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+/* .secondary-margin{
+    margin-bottom: 100px;
+  } */
+/* .secondary-work{ 
+    width: 1140px;
+    height: 1393px;
+    justify-content: center;
+  } */
+.btn-secondary {
+    background-color: #dfe6f8;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px 30px;
+    color: rgb(7, 22, 36);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
 }
