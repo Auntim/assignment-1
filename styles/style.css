@@ -89,6 +89,7 @@ header {
 
 .secondary-work {
     text-align: center;
+    background-color: #FFF8F3;
 }
 
 .block {
@@ -133,4 +134,31 @@ header {
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+.inspiration-title{
+    font-size: 36px;
+    color: #0D1321;
+    margin-top: 60px;
+    
+}
+.third-section-inpiration{
+    /* display: block; */
+   align-items: center;
+   justify-content: center;
+}
+.my-inspiration-part{
+    width: 100%;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.ispiration-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 0.6;
+    margin-bottom: 48px;
+}
+iframe{
+    border: 2px solid rgb(44, 27, 27);
+    border-radius: 15px;
 }
