@@ -5,11 +5,12 @@ header {
     margin-bottom: 70px;
 
 }
+
 .azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
-  }
+}
 
 .container {
     display: flex;
@@ -102,6 +103,7 @@ header {
     display: flex;
     gap: 150px;
     margin-bottom: 40px;
+    margin-top: 30px;
 }
 
 .skill-title {
@@ -116,7 +118,42 @@ header {
     /* font-weight: bold; */
     /* font-family: 'Courier New', Courier, monospace; */
 }
+.center-skill{
+    display: block;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center;
+}
+.skill-container {
+    display: flex;
+    gap: 25px;
+}
+.skills {
+    padding: 20px;
+    box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-title {
+    font-size: 25px;
+    /* text-align: center; */
+}
+.skill-item{
+    text-align: center;
+}
 
+.skill-description {
+    font-size: 17px;
+}
+.skill-btn{
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
 /* .secondary-margin{
     margin-bottom: 100px;
   } */
@@ -126,39 +163,104 @@ header {
     justify-content: center;
   } */
 .btn-secondary {
-    background-color: #dfe6f8;
+    background-color: #eaecf3;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     padding: 15px 30px;
     color: rgb(7, 22, 36);
-    border-radius: 8px;
-    border: none;
+    border-radius: 4px;
+    border: 2px solid black;
     cursor: pointer;
 }
-.inspiration-title{
+
+.inspiration-title {
     font-size: 36px;
     color: #0D1321;
     margin-top: 60px;
-    
+
 }
-.third-section-inpiration{
+
+.third-section-inpiration {
     /* display: block; */
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
-.my-inspiration-part{
+
+.my-inspiration-part {
     width: 100%;
     text-align: center;
     /* justify-content: center; */
     /* align-items: center; */
 }
-.ispiration-description{
+
+.ispiration-description {
     font-size: 16px;
     color: #0D1321;
     opacity: 0.6;
     margin-bottom: 48px;
 }
-iframe{
+
+iframe {
     border: 2px solid rgb(44, 27, 27);
     border-radius: 15px;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-title{
+     font-size: 32px;
+     font-weight: 800;
+     color: #0D1321;
+
+}
+.section-description{
+    font-size: 18px;
+    opacity: 0.6;
+}
+footer{
+    text-align: center;
+    margin: auto;
+    background-image: url(../assets/handshake.jpg) ;
+    background-position: center;
+    background-attachment: fixed;
+    /* display: flex; */
+}
+.footer-btn{
+    background-color: #eaecf3;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    color: rgb(7, 22, 36);
+    border-radius: 8px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.footer-title{
+   font-size: 32px;
+   font-weight: bold;
+   color: #FFF8F3;
+
+}
+.footer-description{
+font-size: 16px;
+/* opacity: 0.6; */
+}
+.flex{
+    display: block;
+}
+textarea{
+    border-radius: 8px;
+}
+.footer-text{
+    font-size: 18px;
+    opacity: 0.6;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
 }
