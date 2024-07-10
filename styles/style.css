@@ -223,44 +223,99 @@ main {
     font-size: 18px;
     opacity: 0.6;
 }
-footer{
-    text-align: center;
-    margin: auto;
-    background-image: url(../assets/handshake.jpg) ;
-    background-position: center;
-    background-attachment: fixed;
-    /* display: flex; */
-}
-.footer-btn{
-    background-color: #eaecf3;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 15px 30px;
-    color: rgb(7, 22, 36);
-    border-radius: 8px;
-    border: 2px solid black;
-    cursor: pointer;
-}
-.footer-title{
-   font-size: 32px;
-   font-weight: bold;
-   color: #FFF8F3;
+
+
+
+.support-section{
+    width: 1140px;
+    height: 313px;
+    background-image:linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../assets/handshake.jpg');
+    margin: 0 auto;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 49px;
+    border-radius: 16px;
 
 }
-.footer-description{
-font-size: 16px;
-/* opacity: 0.6; */
+.support-title{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.flex{
-    display: block;
+.support-des{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    width: 606px;
+    margin-bottom: 20px;
 }
-textarea{
+
+.search-container{
+    display: flex;
+    gap: 20px;
+    width: 720px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.search{
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.search-btn{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.footer-section{
+    width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 32px 150px;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer-text{
-    font-size: 18px;
-    opacity: 0.6;
-    margin-top: 20px;
-    padding-top: 10px;
-    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-links{
+    display: flex;
+    gap: 20px;
 }
